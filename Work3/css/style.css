@@ -1,0 +1,150 @@
+body{
+    background-color: #E1E1E1;      /*светло-серо-лавандовый*/
+} 
+
+.big-box{
+    width: 850px;
+    height: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white; 
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);        /* Параметры тени */
+    padding: 20px;
+}
+
+.box1{
+    margin: 20px 20px 5px 20px;
+    padding: 10px;
+    float: left;
+}
+
+.box3{
+    margin: 170px 30px 10px 300px;
+    padding: 10px;
+    float: right top;
+    border: 1px solid #ccc;      
+}
+
+.box4 p{
+    padding: 10px;
+    margin: 30px 50px 50px 300px;
+    text-align: left;
+    border-style: 1px solid #ccc;
+    float: right;
+    font-family: Calibri;
+    font-size: 14px;
+    line-height: 20px;
+} 
+
+.box2 .solidblockmenu {
+        margin : 20px 20px; 
+        padding : 0px;
+        float : left;
+        font : bold 16px Calibri;
+        width : 800px;
+        border-width : 1px;
+        background : #5E5B5C;
+        float: center;       
+}
+
+.box2 .solidblockmenu li {
+        display : inline;
+}
+
+.box2 .solidblockmenu li a {
+        float : left;
+        color : white;
+        padding : 9px 40px;
+        text-decoration : none;
+ }
+
+
+.box2 .solidblockmenu li a:visited {
+        color : white;
+}
+
+.box2 .solidblockmenu li a:hover, 
+.box2 .solidblockmenu li .current {
+        color : white;
+        background : #3F3F3F;
+    }
+
+.box6 li a {
+    float: left;                /* Обтекание */
+    background: none;          /* Цвет фона */
+    border: 1px solid grey;     /* Параметры рамки */
+    padding: 10px;              /* Поля вокруг текста */
+    width: 100%;                 /* Ширина блока */
+   }
+
+
+.sidebar{
+        margin : 20px 20px 20px 20px; 
+        padding : 0px;
+        float : left top;
+        font : bold 14px Arial;
+        width : 20%;
+        border-width : 1px;
+        background : white;
+}
+
+.sidebar li {
+        display : inline;
+}
+
+.sidebar li a {
+        float : left;
+        color : grey;
+        padding : 10px 10px;
+        text-decoration : none;
+ }
+
+.sidebar li a:visited {
+        color : grey;
+}
+
+.sidebar li a:hover, 
+.sidebar li .current {
+        color : black;
+        background : #E1E1E1; 
+}
+
+.footer {
+        margin : 20px 20px;  
+        padding : 0px;
+        float : left;
+        font : 16px Calibri;
+        width: 800px;
+        border-width : 1px;
+        background : #E1E1E1;       /*бледно-серый*/
+        float: center;    
+}
+
+.footer li {
+        display : inline;
+}
+
+.footer li a {
+        float : left;
+        color : black;
+        padding : 9px 40px;
+        text-decoration : none;
+ }
+
+.footer li a:visited {
+        color : black;
+}
+
+.footer li a:hover, 
+.footer li .current {
+        text-decoration: underline;
+}
+
+.footer p {
+        float : right;
+        color : black;
+        padding : 9px 20px;
+        text-decoration : none;
+        
+}
+
